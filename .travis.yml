@@ -8,7 +8,7 @@ script: 'make docker-build'
 deploy:
     provider: 'pages'
     skip-cleanup: true
-    github-token: $GITHUB_TOKEN
+    github-token: 2cd13117a7f9cf54be46f037a283f14c43051aa1
     keep-history: true
     local-dir: 'output'
     on:
