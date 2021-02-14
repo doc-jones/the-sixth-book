@@ -1,14 +1,15 @@
 site_name: The Sixth Book
 site_description: My digital garden where I store and share the things I learn.
 site_author: Doc Jones
-site_url: https://mycoolsiterepo.com
+site_url: https://www.docjones.dev
 repo_name: doc-jones/the-sixth-book
 repo_url: https://github.com/doc-jones/the-sixth-book
 theme:
     name: material
     palette:
-        primary: blue
-        accent: white
+        scheme: slate
+        primary: green
+        accent: green
 nav:
     - Home: index.md
     - Markdown Addons: mkdocs-examples/addons.md
